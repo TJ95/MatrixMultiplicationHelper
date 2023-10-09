@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+}
+
+.matrix-section {
+    display: flex;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-right: 20px; /* Adjust space between matrix and X symbol */
+}
+
+td {
+    border: 1px solid #ccc;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+input:focus {
+    background-color: #ffebcd;
+}
+
+.multiply-symbol {
+    font-size: 24px; /* Adjust the size of X symbol */
+    margin-right: 20px; /* Adjust space between X symbol and matrix */
+}
+
+.equals-symbol {
+    font-size: 24px; /* Adjust the size of X symbol */
+    margin-right: 20px; /* Adjust space between X symbol and matrix */
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 15px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+button:active {
+    transform: scale(0.95);
+}
