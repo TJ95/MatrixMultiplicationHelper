@@ -27,7 +27,7 @@ main {
 
 table {
     border-collapse: collapse;
-    margin-right: 20px; /* Adjust space between matrix and X symbol */
+    margin-right: 20px;
 }
 
 td {
@@ -52,13 +52,13 @@ input:focus {
 }
 
 .multiply-symbol {
-    font-size: 24px; /* Adjust the size of X symbol */
-    margin-right: 20px; /* Adjust space between X symbol and matrix */
+    font-size: 24px;
+    margin-right: 20px;
 }
 
 .equals-symbol {
-    font-size: 24px; /* Adjust the size of X symbol */
-    margin-right: 20px; /* Adjust space between X symbol and matrix */
+    font-size: 24px;
+    margin-right: 20px;
 }
 
 button {
