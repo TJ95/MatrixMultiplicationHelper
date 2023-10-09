@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Matrix Multiplication</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script type="text/javascript" async
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <h1>Matrix Multiplication</h1>
+    
+    <div id="matrixDefinition">
+        <h2>Matrix Definition</h2>
+        <label for="matrixName">Matrix Name (LaTeX-style):</label>
+        <div class="math-input">
+            <input type="text" id="matrixName">
+        </div>
+        <label for="matrixRows">Rows:</label>
+        <input type="number" id="matrixRows">
+        <label for="matrixCols">Columns:</label>
+        <input type="number" id="matrixCols">
+        <button onclick="generateMatrixInput()">OK</button>
+    </div>
+
+    <div id="matrixInput">
+        <!-- Matrix input fields will be generated here -->
+    </div>
+
+    <button onclick="createMatrix()">Create Matrix</button>
+
+    <div id="matrixOperation">
+        <h2>Matrix Operation</h2>
+        <label for="matrixA">Matrix A:</label>
+        <input type="text" id="matrixA">
+        <label for="matrixB">Matrix B:</label>
+        <input type="text" id="matrixB">
+        <button onclick="multiplyMatrices()">Multiply</button>
+    </div>
+
+    <div id="result">
+        <h2>Result:</h2>
+        <p id="resultText"></p>
+    </div>
+
+    <div id="definedMatrices">
+        <h2>Defined Matrices</h2>
+        <ul id="matrixList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
